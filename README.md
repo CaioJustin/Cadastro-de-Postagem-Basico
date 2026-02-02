@@ -1,14 +1,41 @@
-Cadastro de Postagem Basico
+# Cadastro de Postagem Básico
 
-Um site Basico e simples , construído em Node.js com Express.
+Projeto simples de **cadastro de postagens**, desenvolvido com **Node.js** e **Express**, com foco em praticar os conceitos básicos de CRUD e estruturação de uma aplicação backend com renderização de views.
 
-Funcionalidade
+## 📌 Descrição
 
-O Site Permite para criar ,ler e deletar Postagem.
+Este é um site **básico e funcional**, ideal para estudos e projetos iniciais, permitindo gerenciar postagens de forma simples através de uma interface web.
 
-Tecnologia Usadas
+## ⚙️ Funcionalidades
 
-Express
-handlebars
-sequelizes
-nodemon
+* Criar postagens
+* Listar postagens
+* Deletar postagens
+
+*(CRUD parcial — não possui edição/atualização)**
+
+## 🛠️ Tecnologias Utilizadas
+
+* **Node.js** – Ambiente de execução JavaScript
+* **Express** – Framework para criação da aplicação web
+* **Handlebars** – Template engine para renderização das páginas
+* **Sequelize** – ORM para comunicação com o banco de dados
+* **Nodemon** – Reinicialização automática do servidor em desenvolvimento
+
+## 🚀 Objetivo do Projeto
+
+O objetivo deste projeto é praticar:
+
+* Estrutura MVC
+* Rotas com Express
+* Integração com banco de dados usando Sequelize
+* Renderização de páginas dinâmicas
+* Operações CRUD básicas
+
+## 📂 Status
+
+✔️ Projeto funcional
+
+## 📚 Observação
+
+Este projeto é voltado para fins educacionais e pode ser expandido com novas funcionalidades como edição de postagens, autenticação de usuários e validações.

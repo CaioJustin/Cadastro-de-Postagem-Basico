@@ -7,13 +7,13 @@ const Post = require("./models/Post");
 
 
 // config 
-//templete enginee
-app.engine('handlebars', engine({ defaultLayout: 'main', }));
-app.set('view engine', 'handlebars')
-
-//Middlewares (body-parse)
-app.use(express.json())
-app.use(express.urlencoded({ extends: false }))
+    
+    //Middlewares (body-parse)
+    app.use(express.json())
+    app.use(express.urlencoded({ extends: false }))
+    //templete enginee
+    app.engine('handlebars', engine({ defaultLayout: 'main', }));
+    app.set('view engine', 'handlebars')
 
 
 
